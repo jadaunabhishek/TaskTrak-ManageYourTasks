@@ -12,10 +12,11 @@
 		D541D0962B5D3FEE00292CC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D541D0952B5D3FEE00292CC3 /* Assets.xcassets */; };
 		D541D0992B5D3FEE00292CC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D541D0982B5D3FEE00292CC3 /* Preview Assets.xcassets */; };
 		D541D09B2B5D3FEE00292CC3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D541D09A2B5D3FEE00292CC3 /* Persistence.swift */; };
-		D541D09E2B5D3FEE00292CC3 /* TaskTrak.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D541D09C2B5D3FEE00292CC3 /* TaskTrak.xcdatamodeld */; };
+		D541D09E2B5D3FEE00292CC3 /* Task.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D541D09C2B5D3FEE00292CC3 /* Task.xcdatamodeld */; };
 		D541D0A82B5D3FEE00292CC3 /* TaskTrakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D541D0A72B5D3FEE00292CC3 /* TaskTrakTests.swift */; };
 		D541D0B22B5D3FEE00292CC3 /* TaskTrakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D541D0B12B5D3FEE00292CC3 /* TaskTrakUITests.swift */; };
 		D541D0B42B5D3FEE00292CC3 /* TaskTrakUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D541D0B32B5D3FEE00292CC3 /* TaskTrakUITestsLaunchTests.swift */; };
+		D541D0C32B5DA58600292CC3 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D541D0C22B5DA58600292CC3 /* TaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		D541D0AD2B5D3FEE00292CC3 /* TaskTrakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskTrakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D541D0B12B5D3FEE00292CC3 /* TaskTrakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTrakUITests.swift; sourceTree = "<group>"; };
 		D541D0B32B5D3FEE00292CC3 /* TaskTrakUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTrakUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D541D0C22B5DA58600292CC3 /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +104,9 @@
 				D541D0932B5D3FEC00292CC3 /* ContentView.swift */,
 				D541D0952B5D3FEE00292CC3 /* Assets.xcassets */,
 				D541D09A2B5D3FEE00292CC3 /* Persistence.swift */,
-				D541D09C2B5D3FEE00292CC3 /* TaskTrak.xcdatamodeld */,
+				D541D09C2B5D3FEE00292CC3 /* Task.xcdatamodeld */,
 				D541D0972B5D3FEE00292CC3 /* Preview Content */,
+				D541D0C22B5DA58600292CC3 /* TaskView.swift */,
 			);
 			path = TaskTrak;
 			sourceTree = "<group>";
@@ -265,7 +268,8 @@
 			files = (
 				D541D09B2B5D3FEE00292CC3 /* Persistence.swift in Sources */,
 				D541D0942B5D3FEC00292CC3 /* ContentView.swift in Sources */,
-				D541D09E2B5D3FEE00292CC3 /* TaskTrak.xcdatamodeld in Sources */,
+				D541D09E2B5D3FEE00292CC3 /* Task.xcdatamodeld in Sources */,
+				D541D0C32B5DA58600292CC3 /* TaskView.swift in Sources */,
 				D541D0922B5D3FEC00292CC3 /* TaskTrakApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -598,13 +602,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		D541D09C2B5D3FEE00292CC3 /* TaskTrak.xcdatamodeld */ = {
+		D541D09C2B5D3FEE00292CC3 /* Task.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				D541D09D2B5D3FEE00292CC3 /* TaskTrak.xcdatamodel */,
 			);
 			currentVersion = D541D09D2B5D3FEE00292CC3 /* TaskTrak.xcdatamodel */;
-			path = TaskTrak.xcdatamodeld;
+			path = Task.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
